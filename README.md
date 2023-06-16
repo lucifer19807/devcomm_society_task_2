@@ -6,7 +6,7 @@
 
 My_BOT is a simple chatbot application built with Next.js and powered by the OpenAI GPT-3.5 language model. It allows users to have interactive conversations with the chatbot and receive responses based on their input.
 
-![Demo](demo.gif)
+
 
 ## Features
 
