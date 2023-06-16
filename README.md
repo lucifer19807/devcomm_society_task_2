@@ -1,59 +1,70 @@
 # devcomm_society_task_2
-Sure! Here's a sample README file for your GitHub repository that summarizes the code and provides instructions for running it:
 
-```
-# Hazardous Object Classification
 
-This repository contains code for classifying objects orbiting the Earth as hazardous or non-hazardous. The code uses a Support Vector Machine (SVM) model to predict the hazard status of the objects based on various features.
+```markdown
+# My_BOT
 
-## Dataset
+My_BOT is a simple chatbot application built with Next.js and powered by the OpenAI GPT-3.5 language model. It allows users to have interactive conversations with the chatbot and receive responses based on their input.
 
-The dataset used for training the model is obtained from Kaggle and can be found [here](https://www.kaggle.com/some-link).
+![Demo](demo.gif)
 
-## Requirements
+## Features
 
-- Python 3.x
-- scikit-learn
-- pandas
-- numpy
-- matplotlib
-- seaborn
+- Chat with the chatbot by entering messages
+- Receive responses from the chatbot based on the conversation context
+- Responsive design for a seamless experience across devices
 
-## Installation
+## Technologies Used
+
+- Next.js: A React framework for building server-side rendered and statically generated applications
+- OpenAI GPT-3.5: A powerful language model used for natural language processing tasks
+
+## Getting Started
+
+To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/lucifer19807/devcomm_society_task_2.git
+   ```shell
+   git clone https://github.com/your-username/my-bot.git
    ```
 
-2. Install the required dependencies:
+2. Install the dependencies:
 
-   ```bash
-   pip install -r requirements.txt
+   ```shell
+   cd my-bot
+   npm install
    ```
 
-## Usage
+3. Set up the environment variables:
 
-1. Download the dataset from the provided Kaggle link and place it in the project directory.
+   - Create a `.env.local` file in the root of the project.
+   - Add your OpenAI API key to the `.env.local` file:
 
-2. Run the Jupyter notebook or Python script containing the code:
+     ```
+     OPENAI_API_KEY=your_api_key_here
+     ```
 
-   ```bash
-   jupyter notebook classification.ipynb
+4. Start the development server:
+
+   ```shell
+   npm run dev
    ```
 
-3. Follow the instructions in the notebook to preprocess the data, perform exploratory data analysis, and train the SVM model.
+5. Open your browser and navigate to `http://localhost:3000` to see the application running.
 
-4. Evaluate the performance of the model using various metrics such as accuracy, confusion matrix, and F1 score.
+## Deployment
 
-## Results
+To deploy the application, you can use platforms like Vercel, Netlify, or AWS Amplify. The deployment process may vary depending on the platform you choose. Make sure to set the `OPENAI_API_KEY` environment variable in your deployment environment as well.
 
-The trained SVM model provides predictions on the hazard status of objects orbiting the Earth. The model's performance can be assessed using metrics such as accuracy and F1 score.
+## Contributing
+
+Contributions to this project are welcome. Feel free to open issues and submit pull requests to suggest improvements or fix any bugs you may encounter.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+This project is licensed under the [MIT License](LICENSE).
+
 ```
 
-Feel free to modify the README file according to your project's specific details and requirements.
+Feel free to modify the content and sections according to your specific project requirements.
