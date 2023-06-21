@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/my-bot.git
+   git clone https://github.com/lucifer19807/devcomm_society_task_2.git
    ```
 
 2. Install the dependencies:
